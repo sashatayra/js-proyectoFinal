@@ -1,0 +1,49 @@
+.carousel-container .img-carrusel {
+  width: 50vw;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.medios-de-pago {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 5rem;
+  padding: 1rem;
+  background: linear-gradient(#dfa52e, 5%, #ffeee0);
+  border-radius: 10px;
+}
+.medios-de-pago .img-medios-de-pago {
+  width: 100px;
+}
+.medios-de-pago .img-medios-de-pago-x {
+  width: 125px;
+}
+
+.catalogo {
+  display: grid;
+  grid-template-areas: ". img-uno img-dos" ". img-tres img-tres";
+}
+.catalogo .celda-img-uno {
+  grid-area: img-uno;
+  position: relative;
+}
+.catalogo .celda-img-uno .img-catalogo-uno {
+  width: 30vw;
+  height: 60vh;
+}
+.catalogo .celda-img-dos {
+  grid-area: img-dos;
+}
+.catalogo .celda-img-dos .img-catalogo-dos {
+  width: 30vw;
+  height: 60vh;
+}
+.catalogo .celda-img-tres {
+  grid-area: img-tres;
+  margin-left: 10rem;
+}
+.catalogo .celda-img-tres .img-catalogo-tres {
+  width: 50vw;
+  height: 100vh;
+}/*# sourceMappingURL=main.css.map */

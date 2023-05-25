@@ -1,0 +1,30 @@
+footer{
+    background: linear-gradient(to right, #e758a9, #f9c3d1);
+    display: flex;
+    justify-content: space-between;
+    background-color: #000;
+    color: #FFF;
+    height: 30vh;
+    padding: 1rem;
+    margin-top: auto;
+    .contenedor-dos-footer{
+        color: #e52491;
+        .form{
+            margin: 1rem 0;
+            .form-input{
+                margin-right: .5rem;
+            }
+            .btn-aceptar{
+                background-color: white;
+                border: 0;
+                padding: 0.1rem 0.5rem;
+                color: #e52491;
+                cursor: pointer;
+                &:hover{
+                    opacity: .5;
+                }
+
+            }
+        }
+    }
+}

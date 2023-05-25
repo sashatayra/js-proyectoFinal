@@ -1,0 +1,45 @@
+.img-gorra{
+    width: 50vh;
+    height: auto;
+    border-radius: 1rem;
+}
+
+.contenedor-gorras{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: auto;
+    .prod-gorras{
+        display: flex;
+        justify-content: center;
+        margin: 1rem;
+        .contenedor-descripcion-producto{
+            padding: 0.5rem 1rem;
+            margin-top: 0.5rem;
+        }
+    }
+    .agregar{
+        width: 100%;
+        padding: 15px;
+        font-size: 12px;
+        font-weight: bold;
+        text-transform: uppercase;
+        color: #fff;
+        background: linear-gradient(to right, #ed6db5, #fccfdb);
+        border: none;
+        border-radius: 1rem;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+        margin-top: .2rem;
+    
+        &:hover {
+            background: linear-gradient(to right, #e390bf, #f7e3e8);
+            color: #ed13d2;
+        }
+    
+        &:focus {
+            outline: none;
+            // box-shadow: 0 0 0 3px rgba(141, 154, 251, 0.65);
+        }       
+    }
+
+}

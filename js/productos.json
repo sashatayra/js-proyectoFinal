@@ -1,0 +1,122 @@
+[
+    {
+        "id": "camiseta01",
+        "titulo": "Camiseta 01",
+        "imagen": "./assets/camiseta01.jpg",
+        "categoria": {
+            "nombre": "Camisetas",
+            "id": "camisetas"
+        },
+        "precio": 1000  
+    },
+    {
+        "id": "camiseta02",
+        "titulo": "Camiseta 02",
+        "imagen": "./assets/camiseta02.png",
+        "categoria": {
+            "nombre": "Camisetas",
+            "id": "camisetas"
+        },
+        "precio": 1000  
+    },
+    {
+        "id": "camiseta03",
+        "titulo": "Camiseta 03",
+        "imagen": "./assets/camiseta03.png",
+        "categoria": {
+            "nombre": "Camisetas",
+            "id": "camisetas"
+        },
+        "precio": 1000  
+    },
+    {
+        "id": "camiseta04",
+        "titulo": "Camiseta 04",
+        "imagen": "./assets/camiseta04.png",
+        "categoria": {
+            "nombre": "Camisetas",
+            "id": "camisetas"
+        },
+        "precio": 1000  
+    },
+    {
+        "id": "pantalon01",
+        "titulo": "Pantalon 01",
+        "imagen": "./assets/pantalon01.png",
+        "categoria": {
+            "nombre": "Pantalones",
+            "id": "pantalones"
+        },
+        "precio": 1000  
+    },
+    {
+        "id": "pantalon02",
+        "titulo": "Pantalon 02",
+        "imagen": "./assets/pantalon02.png",
+        "categoria": {
+            "nombre": "Pantalones",
+            "id": "pantalones"
+        },
+        "precio": 1000  
+    },
+    {
+        "id": "pantalon03",
+        "titulo": "Pantalon 03",
+        "imagen": "./assets/pantalon03.png",
+        "categoria": {
+            "nombre": "Pantalones",
+            "id": "Pantalones"
+        },
+        "precio": 1000  
+    },
+    {
+        "id": "pantalon04",
+        "titulo": "Pantalon 04",
+        "imagen": "./assets/pantalon04.png",
+        "categoria": {
+            "nombre": "Pantalones",
+            "id": "pantalones"
+        },
+        "precio": 1000  
+    },
+    {
+        "id": "gorra01",
+        "titulo": "Gorra 01",
+        "imagen": "./assets/gorra01.png",
+        "categoria": {
+            "nombre": "Gorras",
+            "id": "gorras"
+        },
+        "precio": 1000  
+    },
+    {
+        "id": "gorra02",
+        "titulo": "Gorra 02",
+        "imagen": "./assets/gorra02.png",
+        "categoria": {
+            "nombre": "Gorras",
+            "id": "gorras"
+        },
+        "precio": 1000  
+    },
+    {
+        "id": "gorra03",
+        "titulo": "Gorra 03",
+        "imagen": "./assets/gorra03.png",
+        "categoria": {
+            "nombre": "Gorras",
+            "id": "gorras"
+        },
+        "precio": 1000  
+    },
+    {
+        "id": "gorra04",
+        "titulo": "Gorra 04",
+        "imagen": "./assets/gorra04.png",
+        "categoria": {
+            "nombre": "Gorras",
+            "id": "gorras"
+        },
+        "precio": 1000  
+    }
+]

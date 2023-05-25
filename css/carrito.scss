@@ -1,0 +1,93 @@
+div .disabled{
+    display: none !important;
+    // visibility: hidden;
+}
+
+.carrito-vacio{
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.imagen-carrito{
+    width: 4rem;
+    border-radius: 1rem;
+}
+
+.producto-carrito{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: .5rem;
+    padding-right: 1.5rem;
+    border-radius: 1rem;
+    margin: 1rem;
+}
+
+.productos-carrito {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+#acciones-carrito{
+    display: flex;
+    justify-content: space-around;
+    margin: 1rem;
+    .vaciar-carrito{
+        border: 0;
+        padding: .5rem;
+        border-radius: 1rem;
+        text-transform: uppercase;
+        cursor: pointer;
+        color: #fff;
+        border: none;
+        border-radius: 1rem;
+        transition: background-color 0.3s ease;
+        margin-top: .2rem;
+        background-color: #e6a6ca;
+        &:hover {
+            background-color: #f7e3e8;
+            color: #ed13d2;
+        }
+    }
+    .comprar{
+        display: flex;
+        text-align: center;
+        background: linear-gradient(to right, #ed6db5, #fccfdb);
+        border-radius: 1rem;
+        .total{
+            display: flex;
+            padding: 1rem;
+            text-transform: uppercase;
+            gap: 1rem;
+            align-items: center;
+            color: #fff;
+        }
+        .btn-comprar{
+            border: 0;
+            padding: 1rem;
+            text-transform: uppercase;
+            cursor: pointer;
+            gap: 1rem;
+            align-items: center;
+            color: #fff;
+            border-radius: 1rem;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            background-color: #e6a6ca;
+            &:hover {
+                background-color: #f7e3e8;
+                color: #ed13d2;
+            }
+        }
+    }
+}
+
+.footer-carrito{
+    background: linear-gradient(to right, #e758a9, #f9c3d1);
+    // position: sticky;
+    // bottom: 0;
+    // width: 100%;
+    // margin-top: auto;
+}
+
